@@ -1,0 +1,29 @@
+﻿x-pander {
+    font-family: sans-serif;
+}
+
+x-pander h1 {
+    float: left;
+    margin: 0;
+}
+
+x-pander header:before, x-pander header:after {
+    content: '';
+    display: table;
+}
+
+x-pander header:after {
+    clear: both;
+}
+
+x-pander .expander {
+    float: right;
+}
+
+x-pander .expandable.expanded {
+    display: block;
+}
+
+x-pander .expandable.collapsed {
+    display: none;
+}
